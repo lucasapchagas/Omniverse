@@ -64,7 +64,7 @@ Example:
 #### Register a user
 
 ```http
-  POST /user/
+  POST /user
 ```
 
 | Parameter   | Type       | Description                           |
@@ -82,7 +82,7 @@ Example:
 #### Returns all users
 
 ```http
-  GET /user/
+  GET /user
 ```
 
 #### Delete a user
@@ -96,7 +96,7 @@ Example:
 Just the field you want to modify is needed as a Parameter. User id is a **must have**.
 
 ```http
-  PUT /user/
+  PUT /user
 ```
 
 | Parameter   | Type       | Description                           |
