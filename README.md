@@ -28,7 +28,7 @@ For an easy setup, you'll need a MySQL server, but the API itself is prepared to
 
     Utilizing the API is as simple as modifying, understanding, and building it. Given that Java runs on the JVM, deploying the API becomes effortless—simply run the compiled JAR on any cloud service.
 
-- You can just use a [PRE-RELEASE](https://github.com/lucasapchagas/Omniverse/releases/tag/SNAPSHOT) instead of compiling it. Please, always use the latest one.
+- You can just use a [RELEASE](https://github.com/lucasapchagas/Omniverse/releases/tag/RELEASE) instead of compiling it. Please, always use the latest one.
 - In order to run it you must use the following command `java -jar OmniVerse-0.0.1-SNAPSHOT.jar`. By default it will try to open the api to [`http://localhost:8080/`](http://localhost:8080/).
 
 ## Features 🪶
