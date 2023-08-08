@@ -22,13 +22,15 @@ For an easy setup, you'll need a MySQL server, but the API itself is prepared to
 
     To build the project, you need to have Java 17 installed, but you can easily change the version by modifying the application's [**pom.xml**](https://github.com/lucasapchagas/Omniverse/blob/main/pom.xml) file. The project uses Maven as the build platform, which brings all the conveniences of Maven.
 
-    - You can build it just by running `./mvnw compile` in the project root folder, the target file will be generated at `/target/` folder.
+    - You can build it just by running `./mvnw pacakge` in the project root folder, the target file will be generated at `/target/` folder. 
 
 3. Using it 😯
 
     Utilizing the API is as simple as modifying, understanding, and building it. Given that Java runs on the JVM, deploying the API becomes effortless—simply run the compiled JAR on any cloud service.
 
-- You can just use a [PRE-RELEASE](https://github.com/lucasapchagas/Omniverse/releases/tag/SNAPSHOT) instead of compiling it. Please, always prefer the latest one.
+- You can just use a [PRE-RELEASE](https://github.com/lucasapchagas/Omniverse/releases/tag/SNAPSHOT) instead of compiling it. Please, always use the latest one.
+- In order to run it you must use the following command `java -jar OmniVerse-0.0.1-SNAPSHOT.jar`. By default it will try to open the api to [`http://localhost:8080/`](http://localhost:8080/).
+
 ## Features 🪶
 
 - Uses **viacep api** in order to register users address.
